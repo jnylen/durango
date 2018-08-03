@@ -27,7 +27,7 @@ defmodule Durango.Mixfile do
   defp deps do
     [
       {:jason, "~> 1.0"},
-      {:httpoison, "~> 0.13"},
+      {:httpoison, "~> 1.2"},
       {:gen_util, "~> 0.1.0"},
       {:ex_doc, "~> 0.14", only: :dev},
     ]
